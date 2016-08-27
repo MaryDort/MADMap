@@ -10,7 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "MADLocationSearchTableViewController.h"
 
-@interface MADStartViewController () <UISearchBarDelegate, MKMapViewDelegate>
+@interface MADStartViewController () 
 
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
 @property (strong, nonatomic, readwrite) CLLocationManager *locationManager;

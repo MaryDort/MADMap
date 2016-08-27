@@ -7,6 +7,7 @@
 //
 
 #import "MADLocationSearchTableViewController.h"
+#import <CoreLocation/CoreLocation.h>
 #import "MADPlace.h"
 
 @interface MADLocationSearchTableViewController ()
